@@ -56,6 +56,17 @@ body {
     justify-content: end;
 }
 
+.header__logo-link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.header__logo-title::before {
+content: url(/icons/highlight.svg);
+margin-right: 30px;
+}
+
 .header__logo-application {
     width: 173px;
     height: 40px;
@@ -63,6 +74,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
+    font-weight: 500;
 }
 
 .header__logo-application::after {
@@ -80,6 +92,7 @@ body {
     align-items: center;
     margin-left: 32px;
     margin-right: 7px;
+    font-weight: 500;
 }
 
 .header__logo-status::after {
@@ -128,3 +141,49 @@ button:hover {
 
 }
 
+.content {
+display: flex;
+gap: 36px;
+}
+
+.contetn__block {
+margin-left: 43px;
+
+}
+
+.contetn__block-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: #1b1c21;
+
+    width: 490px;
+    height: 160px;
+
+    
+}
+
+.content__block-link {
+width: 132px;
+height: 24px;
+display: flex;
+justify-content:end;
+}
+
+.content__block-link-style {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.content__block-link-style::before {
+    content: url(/icons/icon-down.svg);
+    margin-right: 16px;
+}
+
+.content__sidebar-image {
+    width: 531px;
+    height: 307px;
+}
