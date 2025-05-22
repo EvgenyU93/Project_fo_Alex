@@ -94,11 +94,10 @@ body {
 
 .content__navigation {
     display: flex;
-    flex-wrap:nowrap
+    flex-wrap:nowrap;
     width: 769px;
     height: 40px;
     margin:32px 0 32px 24px;
-    
     
 }
 
