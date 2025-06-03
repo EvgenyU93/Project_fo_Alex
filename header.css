@@ -1,0 +1,122 @@
+.header {
+    height: 88px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.header__block-left {
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__block-right {
+    width: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__button {
+    width: 40px;
+    height: 40px;
+
+    background-color: #FF3E79;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    transition: transform 0.2s ease;
+}
+
+.header__button-menu {
+    background-image: url(./images/icons/icon.svg);
+}
+
+.header__button-call {
+    background-image: url(./images/icons/csll.svg);
+}
+
+.header__button-chat {
+    background-image: url(./images/icons/chat.svg);
+}
+
+.header__button-profile {
+    background-image: url(./images/icons/Group.svg);
+}
+
+.header__button-repair {
+    background-image: url(./images/icons/repair.svg);
+}
+
+.header__button-chekstatus {
+    background-image: url(./images/icons/chekstatus.svg);
+}
+
+.header__button:hover {
+    transform: scale(1.05);
+}
+
+.header__button:active {
+    transform: scale(0.98); 
+    background-color: #e6235d
+  }
+
+.header__divider {
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #EAEAEA;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 98px;
+    height: 51px;
+    background-image: url(./images/logo/Group.svg);
+}
+
+.header__button--hidden, 
+.header__divider--hidden {
+    display: none;
+}
+
+.header {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+@media (min-width:768px) {
+    .header {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .header__block-left {
+        width:180px;
+    }
+
+    .header__divider {
+        margin: 4px;
+    }
+
+    .header__button--hidden, 
+    .header__divider--hidden {
+        display: block;
+    }
+
+    .header__button-call {
+        margin-left: auto;
+    }
+}
+
+    @media (min-width:1120px) {
+    .header {
+        display: none;
+    }
+}
