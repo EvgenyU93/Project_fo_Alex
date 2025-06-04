@@ -7,32 +7,63 @@
     height: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
+
+    
+
+    display: flex;
 }
 
 .main__header-light-line {
-
+    width: 4px;
+    background-color: #41F6D7;
+    margin-right: 12px;
+    border-radius: 2px; 
 
 }
 
 .main__header-text {
     width: 288px;
-    
+    margin-right: 16px;
 
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 143%;
+    letter-spacing: -0.02em;
+    color: #1b1c21;
 }
 
 .main__nav {
-
-
+    margin-left: 16px;
+    margin-bottom: 24px;
+    height: 40px;
 }
 
 .main__nav-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    align-items: center;
 
-
+    overflow-x: auto;
+    scrollbar-width: none;
 }
 
 .main__nav-list-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #7e7e82;
+    height: 36px;
 
+    padding: 10px;
+    width: fit-content;
+    white-space: nowrap;
+}
 
+.main__nav-list-button:hover {
+    border: 2px solid #b8ffec;
+    border-radius: 6px;
 }
 
 .main__about-us {
@@ -40,14 +71,48 @@
 
 }
 
-.main__about-us-text {
+.main__about-us-contain {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    max-height: 90px;
+    overflow: hidden;
+}
 
+.main__about-us-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: 0.01em;
+    color: #1b1c21;
 
 }
 
 .main__about-us-button {
+    height: 24px;
+    width: 132px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    
+    display: flex;
+    justify-content: space-between;
+}
 
+.main__about-us-button-icon {
+    background-image: url(./images/icons/down.svg);
+    width: 24px;
+    height: 24px;
 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__about-us-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #1b1c21;
 }
 
 .main__about-us-img {
