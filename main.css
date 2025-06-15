@@ -130,7 +130,7 @@
 
 .main__about-us-contain-img {
     max-width: 360px;
-    max-height: 208px;
+    /* max-height: 208px; */
     
     display: flex;
 }
@@ -138,7 +138,7 @@
 .main__about-us-img {
     width: 100%;
     
-    object-fit: contain;
+    /* object-fit: contain; */
 
 }
 
@@ -178,9 +178,10 @@
     }
 
     .main__about-us-contain-img {
-        width: 360px;
-        height: 208px;
-        
+        /* width: 360px; */
+        /* height: 208px; */
+        max-width: 535px;
+        width: 40%;
         margin-left: auto;
         
         display: flex;
@@ -188,8 +189,8 @@
     
     .main__about-us-img {
         width: 100%;
-        height: auto;
-        object-fit: cover;
+        /* height: auto; */
+        /* object-fit: cover; */
 
         border-radius: 6px;
     
