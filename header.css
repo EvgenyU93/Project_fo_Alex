@@ -7,6 +7,11 @@
     gap: 16px;
 }
 
+.header {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
 .header__block-left {
     width: 155px;
     display: flex;
@@ -16,6 +21,7 @@
 
 
 .header__block-right {
+    margin-right: 16px;
     width: 118px;
     display: flex;
     align-items: center;
@@ -86,15 +92,12 @@
     display: none;
 }
 
-.header {
-    padding-right: 16px;
-    padding-left: 16px;
-}
+
 
 @media (min-width:768px) {
     .header {
-        padding-right: 24px;
-        padding-left: 24px;
+        margin-right: 24px;
+        margin-left: 24px;
     }
 
     .header__block-left {
@@ -116,9 +119,50 @@
 }
 
     @media (min-width:1120px) {
-    .header {
-        display: none;
-    }
+        .desktop-hidden {
+            display: none;
+        }
 
-   
+        .header {
+            margin-bottom: -88px;
+        }
+
+        .header__block-right{
+            position: absolute;
+            width: 240px;
+            left:849px;
+            top:42px;
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        .header__button-repair {
+            position: relative;
+            
+        }
+
+        .header__button-repair::before {
+            content: "Оставить заявку";
+            position: absolute;
+            top:9px;
+            left:-140px;
+
+            white-space: nowrap;
+        }
+
+        .header__button-chekstatus {
+            position: relative;
+            margin-left: auto;
+        }
+
+        .header__button-chekstatus::before {
+            content: "Статус ремонта";
+            position: absolute;
+            top:9px;
+            left:-140px;
+        }
 }
+        
+        
+   
