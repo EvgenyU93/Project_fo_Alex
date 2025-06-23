@@ -72,7 +72,12 @@
             </button>
             </div>
             <div class="main__about-us-contain-img">
-                <img src="./images/logo/logo on the wall.png" alt="Логотип компании" class="main__about-us-img">
+                <picture class="main__about-us-img">
+                    <source media="(min-width: 1120px)" srcset="./images/logo/Logo_desktop.png" alt="Логотип компании">  
+                    <source media="(min-width: 768px)" srcset="./images/logo/Logo_tablet.png" alt="Логотип компании">  
+                    <img src="./images/logo/logo on the wall.png" alt="Логотип компании" >
+                </picture>
+                
             </div>
 
         </section>

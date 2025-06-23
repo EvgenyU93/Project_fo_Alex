@@ -3,6 +3,8 @@
     border-top: 1px solid #D9FFF5;
 }
 
+/* Блок с заголовком "Услуги и сервисы" */
+
 .main__header {
     height: 40px;
     margin-top: 24px;
@@ -32,6 +34,8 @@
     letter-spacing: -0.02em;
     color: #1b1c21;
 }
+
+/* Блок с кнопками навигации по сайту */
 
 .main__nav {
     margin-left: 16px;
@@ -65,7 +69,11 @@
 .main__nav-list-button:hover {
     border: 2px solid #b8ffec;
     border-radius: 6px;
+    padding: 8px;
+    
 }
+
+/* Далее Блок контента "О нас" текстом, кнопкой и картинкой */
 
 .main__about-us {
     max-height: 330px;
@@ -76,6 +84,8 @@
     align-items: center;
 
 }
+
+/* Текст в блоке "о нас" */
 
 .main__about-us-contain {
     margin-left: 16px;
@@ -102,6 +112,8 @@
     margin-top: 20px;
 
 }
+
+/* Кнопка "Читать далее" */
 
 .main__about-us-button-contain {
     width: 320px;
@@ -134,6 +146,8 @@
     color: #1b1c21;
 }
 
+/* Изображение с логотипом */
+
 .main__about-us-contain-img {
     max-width: 360px;
     max-height: 208px;
@@ -147,6 +161,8 @@
     object-fit: contain;
 
 }
+
+/* Свойства для Планшета */
 
 @media (min-width:768px) {
     .main__about-us {
@@ -202,12 +218,18 @@
     }
 }
 
+/* Свойства для Десктопа */
+
 @media (min-width:1120px) {
    
+    /* Блок Main */
+
     .main {
         padding-top: 17px;
     }
 
+    /* Заголовок в блоке Main */
+    
     .main__header {
         margin-bottom: 8px;
     }
@@ -216,22 +238,14 @@
         margin-right: 30px;
     }
     
+    /* Блок с кнопками навигации по сайту */
+
     .main__nav {
         margin-left: 33px;
         margin-right: 16px;
         margin-bottom: 0;
 
         height: auto;
-    }
-
-    .main__about-us {
-        max-height: 330px;
-    
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    
     }
 
     .main__nav-list {
@@ -247,26 +261,58 @@
         color: #7e7e82;
         height: 36px;
     
-        padding: 15px;
+        padding: 10px;
         width: fit-content;
         white-space: nowrap;
     }
 
+    /* Далее Блок контента "О нас" текстом, кнопкой и картинкой */
+
     .main__about-us {
+        max-height: 330px;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
+
         margin-top: 7px;
+        margin-left: 35px;
+    
     }
+
+    /* Текст в блоке "о нас" */
+
+    .main__about-us-contain {
+
+
+    }
+
+    .main__about-us-text {
+
+
+    }
+
+    /* Кнопка "Читать далее" */
+    
+    .main__about-us-button-contain {
+
+    }
+
+    .main__about-us-button {
+
+
+    }
+
+    /* Изображение с логотипом */
 
     .main__about-us-contain-img {
         max-width: 531px;
-        
-        
-       
+    
     }
     
     .main__about-us-img {
         width: 100%;
         
-        
-    
     }
 }
