@@ -149,16 +149,15 @@
 /* Изображение с логотипом */
 
 .main__about-us-contain-img {
-    max-width: 360px;
-    max-height: 208px;
+    max-width: 320px;
     
-    display: flex;
+    /* display: flex; */
 }
 
 .main__about-us-img {
     width: 100%;
     
-    object-fit: contain;
+    /* object-fit: contain; */
 
 }
 
@@ -172,7 +171,7 @@
         margin-left: 24px;
         margin-right: 24px;
 
-        
+        align-items: start;
     }
 
     .main__about-us-contain {
@@ -180,7 +179,7 @@
     
         min-height: 80px;
         max-height: 160px;
-        max-width: 310px;
+        min-width: 310px;
         
         overflow: hidden;
     }
@@ -201,17 +200,11 @@
 
     .main__about-us-contain-img {
         width: 360px;
-        height: 208px;
         
-        margin-left: auto;
-        
-        display: flex;
     }
     
     .main__about-us-img {
         width: 100%;
-        height: auto;
-        object-fit: cover;
 
         border-radius: 6px;
     
@@ -275,6 +268,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: start;
+        
 
         margin-top: 7px;
         margin-left: 35px;
@@ -284,7 +278,9 @@
     /* Текст в блоке "о нас" */
 
     .main__about-us-contain {
+        max-width: 490px;
 
+        margin-right: 36px;
 
     }
 
@@ -296,7 +292,7 @@
     /* Кнопка "Читать далее" */
     
     .main__about-us-button-contain {
-
+        
     }
 
     .main__about-us-button {
@@ -307,12 +303,13 @@
     /* Изображение с логотипом */
 
     .main__about-us-contain-img {
-        max-width: 531px;
+        
     
     }
     
     .main__about-us-img {
-        width: 100%;
+        
+        
         
     }
 }
