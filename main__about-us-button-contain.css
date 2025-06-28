@@ -1,0 +1,56 @@
+.main__about-us-button-contain {
+    width: 320px;
+}
+
+.main__about-us-button {
+    height: 24px;
+    width: 132px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__about-us-button-icon {
+    background-image: url(./images/icons/down.svg);
+    width: 24px;
+    height: 24px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__about-us-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #1b1c21;
+}
+
+
+@media (min-width:768px) {
+
+    .main__about-us-button-contain {
+        align-self: flex-start;
+    }
+
+    .main__about-us-button {
+        margin:0;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width:1120px) {
+    .main__about-us-button-contain {
+        
+    }
+
+    .main__about-us-button {
+
+
+    }
+
+}

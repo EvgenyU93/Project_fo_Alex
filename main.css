@@ -74,7 +74,7 @@
 }
 
 /* Далее Блок контента "О нас" текстом, кнопкой и картинкой */
-
+/* 
 .main__about-us {
     max-height: 330px;
 
@@ -85,7 +85,7 @@
 
 }
 
-/* Текст в блоке "о нас" */
+
 
 .main__about-us-contain {
     margin-left: 16px;
@@ -113,7 +113,7 @@
 
 }
 
-/* Кнопка "Читать далее" */
+
 
 .main__about-us-button-contain {
     width: 320px;
@@ -146,25 +146,25 @@
     color: #1b1c21;
 }
 
-/* Изображение с логотипом */
+
 
 .main__about-us-contain-img {
     max-width: 320px;
     
-    /* display: flex; */
+    
 }
 
 .main__about-us-img {
     width: 100%;
     
-    /* object-fit: contain; */
+    
 
-}
+} */
 
-/* Свойства для Планшета */
+
 
 @media (min-width:768px) {
-    .main__about-us {
+    /* .main__about-us {
         height: 208px;
 
         margin-top: 32px;
@@ -208,7 +208,7 @@
 
         border-radius: 6px;
     
-    }
+    } */
 }
 
 /* Свойства для Десктопа */
@@ -261,7 +261,7 @@
 
     /* Далее Блок контента "О нас" текстом, кнопкой и картинкой */
 
-    .main__about-us {
+    /* .main__about-us {
         max-height: 330px;
     
         display: flex;
@@ -275,8 +275,7 @@
     
     }
 
-    /* Текст в блоке "о нас" */
-
+    
     .main__about-us-contain {
         max-width: 490px;
 
@@ -289,7 +288,6 @@
 
     }
 
-    /* Кнопка "Читать далее" */
     
     .main__about-us-button-contain {
         
@@ -300,8 +298,7 @@
 
     }
 
-    /* Изображение с логотипом */
-
+    
     .main__about-us-contain-img {
         
     
@@ -311,5 +308,5 @@
         
         
         
-    }
+    } */
 }
